@@ -1,0 +1,279 @@
+ul.side-nav li:hover{
+    -webkit-transition: -webkit-box-shadow 1s ease-in;
+    -moz-transition: -moz-box-shadow 1s ease-in;
+    -o-transition: -o-box-shadow 1s ease-in;
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus
+{
+        -webkit-transition: -webkit-box-shadow 1s ease-in;
+    -moz-transition: -moz-box-shadow 1s ease-in;
+    -o-transition: -o-box-shadow 1s ease-in;
+}
+@media (min-width : 1224px){
+    #wrapper {
+    padding-left: 150px;
+    }
+
+    .side-nav {
+    margin-left: -150px;
+    left: 150px;
+    width: 150px;
+
+    }
+}
+.select2-container .select2-choice {
+display: block;
+height: 39px;
+padding: 7px 0 0 8px;
+overflow: hidden;
+position: relative;
+border: none;
+white-space: nowrap;
+line-height: 26px;
+color: #444;
+text-decoration: none;
+border-radius: 4px;
+background-clip: padding-box;
+-webkit-touch-callout: none;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+background-color: #fff;
+background-image: none;
+background-image: none;
+background-image: none;
+filter: none;
+background-image: none;
+}
+
+
+h1.cn{
+    margin-top: 0px;
+}
+
+.subtotal>center>h3{
+  margin: 0px;
+  margin-top: 7px;
+}
+
+.table-striped > tbody > tr:nth-child(odd) > td,
+.table-striped > tbody > tr:nth-child(odd) > th {
+ /* background-color: #f9f9f9;*/
+ background-color: #dff0d8;
+}
+.table-hover > tbody > tr:hover > td,
+.table-hover > tbody > tr:hover > th {
+  background-color: #dff0d8;
+}
+
+textarea.form-control {
+    height: 68px;
+}
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
+div.editable {
+    width: 300px;
+    height:50px;
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+
+
+#tblItemList textarea.description{
+    font-size: 12px;
+    height: 40px;
+}
+
+.form-control[readonly]{
+    background-color: #ffffff;
+    cursor: not-allowed;
+}
+
+.select2-offscreen,
+.select2-offscreen:focus {
+  // Keep original element in the same spot
+  // So that HTML5 valiation message appear in the correct position
+  left: auto !important;
+  top: auto !important;
+}
+
+.dataTables_filter input{
+  display: block;
+width: 100%;
+height: 34px;
+padding: 6px 12px;
+font-size: 14px;
+line-height: 1.428571429;
+color: #555555;
+vertical-align: middle;
+background-color: #ffffff;
+background-image: none;
+border: 1px solid #cccccc;
+border-radius: 4px;
+-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+-webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+margin: 0em;
+font: -webkit-small-control;
+color: initial;
+letter-spacing: normal;
+word-spacing: normal;
+text-transform: none;
+text-indent: 0px;
+text-shadow: none;
+display: inline-block;
+text-align: start;
+}
+.dataTables_filter input:focus{
+border-color: #66afe9;
+outline: 0;
+-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+}
+
+.dataTables_paginate a{
+  position: relative;
+  float: left;
+  padding: 6px 12px;
+  margin-left: -1px;
+  line-height: 1.428571429;
+  text-decoration: none;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  cursor: pointer;
+}
+
+.dataTables_paginate a:hover{
+  background-color: #eeeeee;
+}
+.paginate_button_disabled{
+  color: #999999;
+  cursor: not-allowed!important;
+  background-color: #ffffff;
+  border-color: #dddddd;
+}
+
+.paginate_active{
+  color: #ffffff;
+  cursor: not-allowed!important;
+  background-color: #2a6496!important;
+  border-color: #dddddd;
+}
+
+
+
+.message{
+  position: relative;
+  width: 210px;
+  z-index: 9999;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+#message-container{
+  position: fixed;
+  width: 220px;
+  z-index: 9999;
+  bottom: 0px;
+  left: 10px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+
+
+button::-moz-focus-inner {
+  border: 0;
+}
+
+a:focus, a:active, 
+button::-moz-focus-inner,
+input[type="reset"]::-moz-focus-inner,
+input[type="button"]::-moz-focus-inner,
+input[type="submit"]::-moz-focus-inner,
+select::-moz-focus-inner,
+input[type="file"] > input[type="button"]::-moz-focus-inner {
+    border: 0;
+    outline : 0;
+}
+
+#total{
+  text-decoration: underline;
+}
+
+.profile h3 {
+    padding: 0 5px;
+}
+ul.profile-details {
+    color: #7C848D;
+    list-style: none outside none;
+    margin-top: 10px;
+    padding: 0 5px;
+}
+ul.profile-details li {
+    margin: 0 0 20px;
+    padding-left: 22px;
+    position: relative;
+}
+ul.profile-details li div {
+    color: #B2B8BD;
+}
+ul.profile-details li div i {
+    color: #CED1D4;
+    left: -5px;
+    position: absolute;
+    text-align: center;
+    top: 4px;
+    width: 20px;
+}
+ul.profile-details li input[type="text"] {
+    color: #000000 !important;
+}
+
+
+.edit-button{
+  position: relative!important;
+  float: right;
+  width: 10px;
+  color: black;
+  display: none;
+  
+}
+
+.edit-btn {
+   position: relative!important;
+  float: right;
+ 
+  color: black;
+
+}
+
+.edit-button i.fa{
+  color:black;
+}
+
+ul.profile-details>li:hover .edit-button{
+  display: block!important;
+}
+
+
+.loader{
+  background-image:url('/loader/loader.gif');
+  background-repeat: no-repeat;
+  background-size: 15px 15px;
+  width: 15px;
+  height: 15px;
+  margin: 0px;
+  padding: 0px;
+
+}
+
+.hint { display: none; }
+.field:hover .hint { display: block; }

@@ -1,0 +1,36 @@
+Name:
+  wkhtmltopdf 0.11.0 rc2
+
+License:
+  Copyright (C) 2010 wkhtmltopdf/wkhtmltoimage Authors.
+
+
+
+  License LGPLv3+: GNU Lesser General Public License version 3 or later 
+  <http://gnu.org/licenses/lgpl.html>. This is free software: you are free to
+  change and redistribute it. There is NO WARRANTY, to the extent permitted by
+  law.
+
+Authors:
+  Written by Jan Habermann, Christian Sciberras and Jakob Truelsen. Patches by
+  Mehdi Abbad, Lyes Amazouz, Pascal Bach, Emmanuel Bouthenot, Benoit Garret and
+  Mário Silva.
+
+Name:
+  wkhtmltopdf 0.11.0 rc2
+
+License:
+  Copyright (C) 2010 wkhtmltopdf/wkhtmltoimage Authors.
+
+
+
+  License LGPLv3+: GNU Lesser General Public License version 3 or later 
+  <http://gnu.org/licenses/lgpl.html>. This is free software: you are free to
+  change and redistribute it. There is NO WARRANTY, to the extent permitted by
+  law.
+
+Authors:
+  Written by Jan Habermann, Christian Sciberras and Jakob Truelsen. Patches by
+  Mehdi Abbad, Lyes Amazouz, Pascal Bach, Emmanuel Bouthenot, Benoit Garret and
+  Mário Silva.
+

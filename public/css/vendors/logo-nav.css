@@ -1,0 +1,50 @@
+body {
+	margin-top: 125px; 
+	background: url(/../../img/login/login-bg.png)0 0 no-repeat; 
+
+	/* height of the menu bar changes */
+}
+
+
+.nav {
+	margin-top: 5px; 
+
+	/* this is a faux center fix for the nav options - adjust this if you wish to change the logo height or the font of the menu items */
+}
+/*custom jumbotron*/
+.jumbotron-tr {
+  padding: 20px;
+  margin-bottom: 70px;
+  font-size: 15px;
+  line-height: 2.1428571435;
+  color: inherit;
+  /*background-color: #eeeeee;*/
+  background-color:rgba(230, 230, 230, 0.65);
+
+}
+.jumbotron-tr h1 {
+  line-height: 1;
+  color: inherit;
+}
+.jumbotron-tr p {
+  line-height: 1.4;
+}
+.container .jumbotron-tr {
+  border-radius: 6px;
+}
+@media screen and (min-width: 768px) {
+  .jumbotron-tr {
+    padding-top: 5px;
+    padding-bottom: 25px;
+  }
+  .container .jumbotron-tr {
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+  .jumbotron-tr h1 {
+    font-size: 63px;
+  }
+}
+
+/*end of custom jumbotron */
+

@@ -37,7 +37,7 @@
 
 	</head>
 <!-- class="wysihtml5-supported  pace-done fixed" style="min-height: 2014px;" -->
-<body class="wysihtml5-supported pace-done skin-black fixed" style="min-height: 2014px;" >
+<body class="wysihtml5-supported pace-done skin-blue fixed" style="min-height: 2014px;" >
         <!-- header logo: style can be found in header.less -->
         <header class="header">
             <a href="/dashboard" class="logo"><!-- Add the class icon to your logo image or logo icon to add the margining -->

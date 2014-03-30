@@ -71,7 +71,7 @@ class UserController extends BaseController {
            
             // If user is logged, redirect to internal 
             // page, change it to '/admin', '/dashboard' or something
-            return Redirect::to('/');
+            return Redirect::to('/dashboard');
         }
         else
         {
@@ -105,7 +105,7 @@ class UserController extends BaseController {
             // Fix pull #145
             
             $user = Confide::user();
-            return Redirect::intended('/suppliers')->with('user',$user); // change it to '/admin', '/dashboard' or something
+            return Redirect::intended('/dashboard')->with('user',$user); // change it to '/admin', '/dashboard' or something
         }
         else
         {

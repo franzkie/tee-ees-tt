@@ -1,0 +1,72 @@
+
+<div class="tableWrapper first">
+
+    <div>
+    <strong>Selected users:</strong> {{ item | filter:{"$selected": true} }}
+    </div>
+    <button class="btn btn-default" ng-click="tableParams.data[1].$selected = true">Select second row</button>
+
+<table ng-table="tableParams" show-filter="true" class="table ng-table-rowselected">
+    <tr ng-repeat="item in $data" id="t1-{{item.id}}"
+        ng-click="item.$selected = !item.$selected; singleSelection(item)"
+        ng-class="{'active': item.$selected}">
+        <td data-title="'Code'" sortable="'code'" filter="{ 'name': 'text' }">
+            {{item.code}}
+        </td>
+        <td data-title="'Name'" sortable="'name'">
+            {{item.name}}
+        </td>
+        <td data-title="'Description'" sortable="'description'">
+            {{item.description}}
+        </td>
+        <td data-title="'Price'" sortable="'price'">
+            {{item.price}}
+        </td>
+        <td data-title="'Quantity'" sortable="'qty'">
+            {{item.qty}}
+        </td>
+        <td data-title="'Expiry'" sortable="'expiry'">
+            {{item.expiry | formatDate}}
+        </td>
+        <td data-title="'Action'">
+            <button class="btn btn-default">Add To Cart</button>
+        </td>
+    </tr>
+</table>
+
+  <ul class="context-menu">
+    <!--<li ng-class="{'tyro-rename:\'rename\'': (menu.name=='Rename'||menu.name=='New Folder')}" ng-repeat="menu in tyro.files.contextmenu | filter:{appliesTo:tyro.files.isContextFolder, role:tyro.files.user}" ng-click="tyro.files.selectMenu(menu)">{{menu.name}}</li>-->
+        <li ng-repeat="menu in items.contextmenu">
+            <span>{{menu.name}}</span>
+        </li>
+  </ul>
+</div>
+
+<div class="tableWrapper">
+
+<table ng-table="tableParams2" show-filter="true" class="table ng-table-rowselected">
+    <tr ng-repeat="item in $data"  id="t2-{{item.id}}"
+        ng-click="item.$selected = !item.$selected; singleSelection(item)"
+        ng-class="{'active': item.$selected}">
+        <td data-title="'Code'" sortable="'code'" filter="{ 'name': 'text' }">
+            {{item.code}}
+        </td>
+        <td data-title="'Name'" sortable="'name'">
+            {{item.name}}
+        </td>
+        <td data-title="'Description'" sortable="'description'">
+            {{item.description}}
+        </td>
+        <td data-title="'Price'" sortable="'price'">
+            {{item.price}}
+        </td>
+        <td data-title="'Quantity'" sortable="'qty'">
+            {{item.qty}}
+        </td>
+        <td data-title="'Expiry'" sortable="'expiry'">
+            {{item.expiry | formatDate}}
+        </td>
+    </tr>
+</table>
+
+</div>

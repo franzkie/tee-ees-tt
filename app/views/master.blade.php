@@ -327,9 +327,9 @@
                                 <i class="fa fa-dashboard"></i> <span>Dashboard</span>
                             </a>
                         </li>
-                        <li id="customers">
-                            <a href="/customers">
-                                <i class="fa fa-group"></i> <span>Customers</span> 
+                        <li id="members">
+                            <a href="/members">
+                                <i class="fa fa-group"></i> <span>Members</span> 
                             </a>
                         </li>
                          <li>

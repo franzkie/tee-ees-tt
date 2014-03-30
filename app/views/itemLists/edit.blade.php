@@ -79,7 +79,7 @@ SearchInput[0].setSelectionRange(strLength, strLength);
 
      $.ajax({
       type: 'PUT',
-      url: '/inventory/itemlists/'+itemId,
+      url: '/inventory/'+itemId,
       dataType: 'json',
       data:$('form').serialize(),
       success: function(data){

@@ -1,0 +1,39 @@
+
+.ty-has-error {
+	/*border:1px solid #A94442*/
+	border: 1px solid red;
+}
+
+.ty-has-error-tab-pane {
+	color:red !important;
+}
+
+.ty-has-error-si {
+	color:red;
+}
+
+.modal-dialog {
+  width: 90%;
+  height: 90%;
+  padding: 0;
+}
+
+.modal-content {
+  /*height: 100%;*/
+  height: auto;
+  border-radius: 0;
+}
+
+/*birthday pickers*/
+.birthday-picker .form-control{
+	display:inline;
+}
+.birthday-picker .birth-month.form-control{
+	width:35%;
+}
+.birthday-picker .birth-day.form-control{
+	width:30%;
+}
+.birthday-picker .birth-year.form-control{
+	width:30%;
+}

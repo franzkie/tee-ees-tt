@@ -6,7 +6,7 @@ function productAddItem(){
 
 	$.ajax({
 	    type: 'post',
-	    url: '/itemlist/create',
+	    url: '/inventory',
 	    dataType: 'json',
 	    data:$('form#productAddItem').serialize(),
 	    success: function(data){
@@ -19,6 +19,7 @@ function productAddItem(){
 
 					$(".msg").html("<p class='text-success'>new item created</p>");
 					$("#modalAdd").modal("hide");
+					$("#DataTables_Table_0").dataTable().fnDraw();
 
 					if(module!='inventory'){
 						$("#s2id_itemName"+data.rowId).select2('data', {itemId: data.itemId, itemName: data.itemName});	
@@ -40,6 +41,7 @@ function productAddItem(){
 						var sub = st.toFixed(2).replace(/(\d)(?=(\d{3})+\.)/g, '$1,');
 	    				parent.find('.subtotal>center>h3').text(sub);
 						calculate();
+						
 					}
 
 					var notify = '<div class="message alert alert-success fade in">'+

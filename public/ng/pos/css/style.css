@@ -1,0 +1,31 @@
+a {
+  text-decoration:none;
+}
+a:hover {
+  text-decoration:none;
+}
+li {
+  list-style:none
+}
+
+div {
+	overflow:hidden;
+}
+
+.ng-table-rowselected tr {
+    cursor: pointer;
+}
+
+/*.tableWrapper .context-menu { display:none; position: absolute; width: 150px; background-color: #ededed; border: 1px solid #b7b7b7; border-radius: 2px; }
+.tableWrapper .context-menu li {line-height:20px; font-size:14px; border-bottom: 1px solid #e0e0e0; height: 16px; padding:7px 25px; margin-left:0; width:101px;}
+.tableWrapper .context-menu span{ cursor: pointer; background-color: #e0e0e0; width:120px; height: 17px; padding: 7px 15px 7px 15px; background-color: #e8e8e8; margin:-7px -25px;}
+.tableWrapper .context-menu span:hover { background-color: grey; }*/
+
+
+/*.tableWrapper .context-menu { display:none; position: absolute; width: 150px; background-color: #ededed; border: 1px solid #b7b7b7; border-radius: 2px; }*/
+.tableWrapper .context-menu { display:none; position: absolute; width: 150px; background-color: #ededed; border: 1px solid #b7b7b7; border-radius: 2px; }
+
+/*.context-menu li { height: 15px; cursor: pointer; color: #585858; font-size: 14px; padding: 7px 25px 7px 25px; border-bottom: 1px solid #e0e0e0; margin-left:0;}*/
+.tableWrapper .context-menu li {border-bottom: 1px solid #e0e0e0; height: 16px; padding:14px 25px; margin-left:-40px; width:149px;}
+.tableWrapper .context-menu span{ cursor: pointer; background-color: #e0e0e0;position:absolute; width:148px; height: 29px; padding: 5px 15px; background-color: #e8e8e8; margin:-14px -25px;}
+.tableWrapper .context-menu span:hover { background-color: grey; }

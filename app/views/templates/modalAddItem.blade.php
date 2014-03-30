@@ -31,7 +31,16 @@
               'id'=>'itemPrice'
               )) }}
               </div>
+            </div>
 
+            <div class="form-group">
+              <div class="col-xs-12">
+              {{ Form::text('itemQty', null, array(
+              'class' => 'form-control', 
+              'placeholder'=>'Item Quantity',
+              'id'=>'itemQty'
+              )) }}
+              </div>
             </div>
 
 

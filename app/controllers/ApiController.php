@@ -133,7 +133,7 @@ class ApiController extends BaseController {
         })
         ->addColumn('itemName',function($model){
 
-            $html = '<a href="itemlists/'.$model->id.'">'.$model->itemName.'</a>';
+            $html = '<a href="/inventory/'.$model->id.'">'.$model->itemName.'</a>';
             return $html;
         })
         ->addColumn('unitPrice',function($model){

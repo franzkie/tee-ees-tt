@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<testsuites>
+  <testsuite name="Firefox 27.0.0 (Windows 7)" package="e2e" timestamp="2014-03-22T18:48:52" id="0" hostname="kobusoft-PC" tests="2" errors="1" failures="2" time="0.01">
+    <properties>
+      <property name="browser.fullName" value="Mozilla/5.0 (Windows NT 6.1; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0"/>
+    </properties>
+    <testcase name="should evaluate 1+1 as 2" time="0.007" classname="e2e Firefox 27.0.0 (Windows 7).my app">
+      <failure type="">expect undefined toBe 2
+</failure>
+      <failure type="">c:/Users/kobusoft/AppData/Roaming/npm/node_modules/karma-ng-scenario/lib/angular-scenario.js:27592: expected 2 but was undefined
+</failure>
+    </testcase>
+    <testcase name="should evaluate 1+1 as 2" time="0.003" classname="e2e Firefox 27.0.0 (Windows 7).my app">
+      <failure type="">expect undefined toBe 2
+</failure>
+      <failure type="">c:/Users/kobusoft/AppData/Roaming/npm/node_modules/karma-ng-scenario/lib/angular-scenario.js:27592: expected 2 but was undefined
+</failure>
+    </testcase>
+    <system-out><![CDATA[
+]]></system-out>
+    <system-err/>
+  </testsuite>
+</testsuites>

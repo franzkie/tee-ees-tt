@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en" ng-app>
+  <head>
+    <title>End2end Test Runner</title>
+    <meta charset="utf-8">
+    <script src="js/lib/angular/angular-1.1.5.min.js"></script>
+
+      <!--'js/lib/angular/angular-*.js',
+      'js/lib/angular/bootstrap/ui-bootstrap-0.6.0.js',
+      'js/lib/angular/bootstrap/position.js',
+      'js/lib/angular/bootstrap/ui.bootstrap.modal.js',
+      'js/*.js',
+      'test/lib/angular/angular-mocks.js',-->
+    <script src="js/directives.js"></script>
+    <script src="test/lib/angular/angular-mocks.js" ng-autotest></script>
+    <script src="test/unit/directivesSpec.js"></script>
+    <script type="text/javascript">
+    	require(["test/unit/directiveSpec.js"], function(){
+    		console.log("starting jasmin..");
+    		jasmineEnv.execute();
+    	});
+    </script>
+  </head>
+  <body>
+  </body>
+</html>

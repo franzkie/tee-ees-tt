@@ -1,6 +1,6 @@
 <?php
 
-class UsersTableSeeder extends Seeder {
+class UserTableSeeder extends Seeder {
 
 	public function run()
 	{
@@ -13,8 +13,9 @@ class UsersTableSeeder extends Seeder {
 			[
 			'username' => 'admin', 
 			'email' => 'admin@gmail.com',
-			'password'=>'admin',
-			'unitPrice'=>'superAdmin',
+			'password'=>'$2y$10$YZLqr35ZBtIFNSac5I6rOeE95NSptXb0Vx7WhA12mimXjtc.hAx.e',
+			'confirmation_code'=>'da96ae0fc5ffe3c5a756c4fba2d4b678',
+			'userType'=>'superAdmin',
 			'confirmed'=>'1'
 			]
 

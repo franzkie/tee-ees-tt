@@ -125,9 +125,50 @@ Route::post('humanresource/manageusers/{id}/delete','UserController@delete');
 	
 
 	//Route::resource('suppliers/print', 'SuppliersController@suppliersPdf');
+
+/*member routes*/
+Route::resource('members', 'MembersController');
+Route::post('members/create', 'MembersController@create');
+Route::post('members/update/{id}', 'MembersController@update');
+Route::get('members/delete/{id}', 'MembersController@destroy');
+Route::get('api/loadData/{num}/{any}', 'ApiController@loadData');
+Route::get('api/toPdf', 'ApiController@toPdf');
+Route::post('members/membersPrintList', 'ApiController@getMembersForPrint');
+Route::post('api/membersPrintList', 'ApiController@getMembers');
+Route::get('members/activity/{id}', 'MembersController@changeActivity');
+Route::post('members/deleteChecked', 'MembersController@deleteAllChecked');
+
+
+
+Route::get('api/getMembers',array('as' => 'api.getMembers', 'uses' => 'ApiController@getMembers'));
+
+//test dummy
+Route::get('api/sampleJoin', 'ApiController@sampleJoin');
+Route::get('members/failIt', 'MembersController@failing');
+Route::get('pos', 'PosController@index');
+Route::get('posApi', 'PosApiController@get_items');
+
+
+Route::get('pos/posData2', function() {
+	//echo "July 1, 2000 is on a " . date("l", mktime(0, 0, 0, 7, 1, 2000));die();
+	//echo mktime(9, 7, 5, 3, 22, 2014);die();
+       $arr = PosDummy::all()->toArray();
+
+return Response::json($arr);
 });
 
 
+}); //before auth routs end
+
+//march 2 14
+Route::get('api/getIfEmployed', 'ApiController@getIfEmployed');
+Route::get('api/getIfBusiness', 'ApiController@getIfBusiness');
+
+//,arch 20 14
+/*Route::group(["before" => "auth"], function()
+{
+
+})*/
 
 
 

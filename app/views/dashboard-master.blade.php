@@ -322,8 +322,8 @@
                             </a>
                         </li>
                         <li>
-                            <a href="/customers">
-                                <i class="fa fa-group"></i> <span>Customers</span> 
+                            <a href="/members">
+                                <i class="fa fa-group"></i> <span>Members</span> 
                             </a>
                         </li>
                          <li>
